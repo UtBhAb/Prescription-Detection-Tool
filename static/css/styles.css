@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Container Styles */
+.container {
+    margin-top: 50px;
+    max-width: 800px;
+}
+
+/* Form Styles */
+.form-label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #495057;
+}
+
+input[type="file"] {
+    display: block;
+    margin-top: 10px;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Image Preview */
+#imagePreview {
+    margin-top: 20px;
+    display: none;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #007bff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+button[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Button for Navigation */
+a.btn {
+    background-color: #28a745;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+a.btn:hover {
+    background-color: #218838;
+}
+
+/* Styling for Extracted Text Page */
+pre {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjustments for Larger Screens */
+@media (min-width: 768px) {
+    .container {
+        margin-top: 80px;
+    }
+}
